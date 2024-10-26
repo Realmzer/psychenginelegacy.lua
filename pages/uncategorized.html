@@ -210,5 +210,40 @@
 				<li class="exampleitem"><span class="methodexample">getModSetting('testnumber')</span> - Returns the value from "testnumber" setting, which is an integer, returning a number.</li>
 				<li class="exampleitem"><span class="methodexample">getModSetting('testkey')</span> - Returns the keys from "testkey", which is a table value with Gamepad and Keyboard inputs, <a href="https://drive.google.com/file/d/1cdT9zqzuAA72xWIA26XRFS_ujlrVOLE-/view?usp=sharing">check this snippet for using it properly</a>.</li>
 			</ul>
+			<hr>
+			<h2 id="openURL">openURL</h2>
+			<p class="methodbox">openURL(<span class="variablemarkup">site</span>:String):String</p>
+			<p>Opens a webpage. 
+				<ul>
+					<li><b><span class="variablemarkup">site</span></b> - The string where you put your URL.</li>
+				</ul>
+			<h4>Examples:</h4>
+			<ul class="methoddiv">
+				<li class="exampleitem"><span class="methodexample">openURL('https://google.com')</span> - Returns with opening a webpage on your default web browser.</li>
+			</ul>
+			<hr>
+			<h2 id="windowName">windowName</h2>
+			<p class="methodbox">windowName(<span class="variablemarkup">name</span>:String):String</p>
+			<p>Renames the window. 
+				<ul>
+					<li><b><span class="variablemarkup">name</span></b> - The string which you put the name of the window.</li>
+				</ul>
+			<h4>Examples:</h4>
+			<ul class="methoddiv">
+				<li class="exampleitem"><span class="methodexample">windowName('Friday Night Funkin')</span> - Returns with renaming your window to the string you specified</li>
+			</ul>
+			<hr>
+			<h2 id="showAlertWindow">showAlertWindow</h2>
+			<p class="methodbox">showAlertWindow(<span class="variablemarkup">message</span>:String, </span><span class="variablemarkup">errTitle</span>:String):String</p>
+			<p>Makes a popup window. 
+				<ul>
+					<li><b><span class="variablemarkup">message</span></b> - The string that you put your actual message in.</li>
+					<li><b><span class="variablemarkup">errTitle</span></b> - The string that you put the title of the window in.</li>
+				</ul>
+			<h4>Examples:</h4>
+			<ul class="methoddiv">
+				<li class="exampleitem"><span class="methodexample">showAlertWindow('A fatal error has occured!', 'Lua error!')</span> - Returns with opening a popup window that contains your message and the title of the alert window.</li>
+			</ul>
+			<hr>
 	</body>
 </html>
